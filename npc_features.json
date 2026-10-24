@@ -1,0 +1,26 @@
+[
+	{
+		"id": "KWS_FT_BOTS",
+		"name": "Blessing of the Saint",
+		"description": "The Crusader gains +1 accuracy on system saves",
+		"type": "trait",
+		"bonuses": [
+			"id": "systems_save",
+			"accuracy": 1,
+			
+		]
+	},
+	{
+		"id": "KWS_FT_BA"
+		"name": "Mark the Infidel",
+		"description": "The Crusader makes a Tech Attack against an enemy target within sensors. On a success the target gains Lock On and while they have it their Tech attacks are made with a +1 disadvantage",
+		"type": "tech",
+		"attack_bonus": [2, 4, 6],
+		"on_hit": [
+			"name": "Mark the Infidel",
+			"deatil": "he Crusader makes a Tech Attack against an enemy target within sensors. On a success the target gains Lock On and while they have it their Tech attacks are made with a +1 disadvantage"
+			"add_status": "lockon",
+		],
+		
+	},
+]
